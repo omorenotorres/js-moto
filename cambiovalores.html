@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Curso de Bootstrap 4 Galeria de Imagenes" />
+    <meta name="keyworkds" content="HTML,CSS,JavaScript,DOM,AJAX,Json,PHP,MySql,Laravel" /> 
+    <meta name="author" content="Carlos Oliveros" />
+
+    <title>Cambio de Valores</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Estilos personalizados para esta plantilla -->
+    <link href="css/estilo.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+ <div class="container-fluid text-center bg-dark text-light">
+   <h1>C 650 Sport.</h1>
+   <p>El maxiscooter BMW C 650 Sport convierte el desplazamiento diario en una experiencia de conducción única. Es el compañero perfecto para aquellos que buscan moverse por la ciudad de forma inteligente. Las prestaciones deportivas y el manejo sin esfuerzo de este scooter de 650 c.c. garantizan una conducción sin igual. El motor de dos cilindros en línea ofrece un par de 63 Nm, 60 CV y una velocidad máxima de 180 km/h. Así llegarás enseguida a tu destino. Ahora tomarás las curvas y sortearás el intenso tráfico de la ciudad aún con más facilidad gracias a la optimización del ágil chasis y la suspensión. ¡Redescubre el mundo en que te mueves cada día! </p>
+ </div>
+ <div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+      <div class="jumbotron">
+        <img id="myImage" src="img/3.jpg" width=100% alt="">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <div class="btn-group ml-5" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary" onclick="document.getElementById('myImage').src='img/2.jpg'">C650T - Roja</button>
+              <button type="button" class="btn btn-secondary" onclick="document.getElementById('myImage').src='img/5.jpg'">C650GT - Verde</button>
+              <button type="button" class="btn btn-secondary" onclick="document.getElementById('myImage').src='img/3.jpg'">C650GT - Gris</button>
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+        </div> 
+        
+        <div class="card-deck">
+          <div class="card">
+            <img id="rojo2" class="card-img-top" style="display:none" src="img/2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">C650GT - Rojo</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-secondary" onclick="document.getElementById('rojo2').style.display='block'">C650GT - Rojo</button>
+            </div>
+          </div>
+          <div class="card">
+            <img id="verde2" class="card-img-top" style="display:none" src="img/5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">C650GT - Verde</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+               <button type="button" class="btn btn-secondary" onclick="document.getElementById('verde2').style.display='block'">C650GT - Verde</button>
+            </div>
+          </div>
+          <div class="card">
+            <img id="gris2" class="card-img-top" style="display:none" src="img/3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">C650GT - Gris</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-secondary" onclick="document.getElementById('gris2').style.display='block'">C650GT - Gris</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+  <div class="col-sm-2"></div>
+</div> 
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Creado por Javier Duran, Orlando Moreno y Gabriel Mesa  Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+  
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+
+</html>
